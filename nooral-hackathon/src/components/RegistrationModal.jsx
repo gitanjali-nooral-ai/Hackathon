@@ -40,7 +40,7 @@ function loadCheckout() {
 
 export default function RegistrationModal({ fee, onClose, onPaid }) {
   const [step, setStep] = useState(0);
-  const [team, setTeam] = useState({ teamName: "", organization: "", city: "", teamSize: "2", idea: "" });
+  const [team, setTeam] = useState({ teamName: "", organization: "", city: "", teamSize: "2" });
   const [members, setMembers] = useState([blank(), blank()]);
   const [registrationId, setRegistrationId] = useState(null);
   const [error, setError] = useState("");
@@ -246,10 +246,6 @@ export default function RegistrationModal({ fee, onClose, onPaid }) {
                     </select>
                   </label>
                 </div>
-                <label>
-                  Project idea (optional)
-                  <textarea rows={3} maxLength={500} value={team.idea} onChange={setT("idea")} placeholder="A line or two about what you want to build" />
-                </label>
               </div>
             )}
 
