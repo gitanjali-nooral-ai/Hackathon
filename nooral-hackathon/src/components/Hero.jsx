@@ -38,7 +38,7 @@ export default function Hero({ slots, onRegister }) {
         <div className="hero-brand-header">
           <div className="brand-logo-row">
             <img src="/nooral-globe-logo.png" alt="Nooral.AI Logo" className="brand-globe-icon" />
-            <span className="brand-text">Nooral<span className="brand-ai">.Ai</span></span>
+            <span className="brand-text">Nooral<span className="brand-ai">.AI</span></span>
           </div>
           <div className="presents-divider">
             <span className="presents-line left"></span>

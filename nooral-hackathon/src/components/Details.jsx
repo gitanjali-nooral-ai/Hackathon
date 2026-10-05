@@ -61,7 +61,7 @@ export default function Details({ slots, onRegister }) {
 
   const techStack = [
     "Python & Programming",
-    "Artificial Intelligence & Machine Learning",
+    "Artificial Intelligence",
     "Generative AI",
     "Natural Language Processing",
     "Computer Vision",
@@ -101,9 +101,9 @@ export default function Details({ slots, onRegister }) {
     { time: "09:00 AM", title: "Registration & Check-in" },
     { time: "09:30 AM", title: "Hackathon Introduction" },
     { time: "10:00 AM", title: "Problem Statements Revealed" },
-    { time: "10:00 AM – 04:00 PM", title: "Development & Implementation" },
-    { time: "04:00 PM – 05:30 PM", title: "Project Presentations & Demos" },
-    { time: "05:30 PM – 06:00 PM", title: "Evaluation & Results" },
+    { time: "10:00 AM - 04:00 PM", title: "Development & Implementation" },
+    { time: "04:00 PM - 05:30 PM", title: "Project Presentations & Demos" },
+    { time: "05:30 PM - 06:00 PM", title: "Evaluation & Results" },
   ];
 
   const whyParticipate = [
@@ -134,7 +134,7 @@ export default function Details({ slots, onRegister }) {
           <span className="sec-eyebrow">OVERVIEW</span>
           <h2 className="sec-title">About the Hackathon</h2>
           <p className="sec-desc">
-            <b>Nooral.AI presents HackVerse Hackathon</b> — a one-day, team-based technology challenge designed to bring together students, developers, and technology enthusiasts to solve real-world problems using AI and modern software technologies.
+            <b>Nooral.AI presents HackVerse Hackathon</b> - a one-day, team-based technology challenge designed to bring together students, developers, and technology enthusiasts to solve real-world problems using AI and modern software technologies.
           </p>
           <p className="sec-desc">
             Participants will receive a problem statement on the hackathon day and will work collaboratively to design, develop, and present a practical solution within the given time. The hackathon provides an opportunity to apply technical knowledge, explore innovative ideas, and experience an industry-oriented development environment.
